@@ -1,0 +1,28 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Local/temporary script/data files
+/scratch/
+compare_notebooks.py
+parse_notebooks.py
+reorganize.py
+verify_structure.py
+
+# System files
+.DS_Store
+Thumbs.db
